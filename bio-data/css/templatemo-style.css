@@ -333,7 +333,7 @@ ul {
 
 .home-content .left-text {     
 	float: left;     
-	width: 60%; 
+	width: 60%;
 }
 
 .home-content .left-text h4 {
@@ -501,7 +501,7 @@ ul {
 */
 
 .contact-content {
-  height: 100vh;
+  /*height: 100vh;*/
   background-color: rgba(45, 58, 75, 0.5);
   padding: 0px 60px;
   position: relative;
