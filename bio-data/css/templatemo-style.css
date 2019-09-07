@@ -455,6 +455,7 @@ ul {
   width: 100%;
 }
 
+.contact-content .owl-carousel,
 .projects-content .owl-carousel {
   margin: 0 -30%;
   width: 160%;
