@@ -530,9 +530,10 @@ ul {
   height: 30px;
   display: inline-block;
   line-height: 40px;
-  font-size: 12px;
+  font-size: 15px;
+  letter-spacing: 1px;
   color: #fff;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
   font-weight: lighter;
   background-color: rgba(250, 250, 250, 0.05);
   border: none;
@@ -568,7 +569,7 @@ ul {
   height: 40px;
   display: inline-block;
   line-height: 40px;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: bolder;
   color: #fff;
   background-color: rgba(250, 250, 250, 0.05);
