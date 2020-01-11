@@ -1782,6 +1782,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     padding-left: 80px;
     margin-left: -30px;
     margin-bottom: .6rem;
+    text-shadow: 0px 0px 15px #FFF;
 }
 
 .home-content h3::before {
@@ -1794,6 +1795,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     position: absolute;
     left: 0;
     top: 50%;
+    box-shadow: 0px 0px 10px #FFF;
 }
 
 .home-content h1 {
@@ -3044,7 +3046,7 @@ html.no-csstransitions .home-content__main {
     background-color: #151515;
     background-image: url("../images/contact-bg.jpg");
     background-repeat: no-repeat;
-    background-position: center, center;
+    background-position: top, center;
     padding-top: 13.2rem;
     padding-bottom: 12rem;
     color: rgba(255, 255, 255, 0.5);
@@ -4146,4 +4148,48 @@ article.blog-single .blog-content {
 .skill-logo svg {
     width: 100px;
     padding: 15px;
+}
+
+.glow {
+  /* background-color: #004A7F;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none; */
+  border-radius: 10px;
+  border: 1px solid #FFF !important;
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+@-webkit-keyframes glowing {
+  0% { -webkit-box-shadow: 0 0 3px rgb(199, 122, 122); }
+  50% { -webkit-box-shadow: 0 0 20px rgb(163, 19, 19); }
+  100% { -webkit-box-shadow: 0 0 3px rgb(199, 122, 122); }
+}
+
+@-moz-keyframes glowing {
+  0% { -moz-box-shadow: 0 0 3px rgb(199, 122, 122); }
+  50% { -moz-box-shadow: 0 0 20px rgb(163, 19, 19); }
+  100% { -moz-box-shadow: 0 0 3px rgb(199, 122, 122); }
+}
+
+@-o-keyframes glowing {
+  0% { box-shadow: 0 0 3px rgb(199, 122, 122); }
+  50% { box-shadow: 0 0 20px rgb(163, 19, 19); }
+  100% { box-shadow: 0 0 3px rgb(199, 122, 122); }
+}
+
+@keyframes glowing {
+  0% { box-shadow: 0 0 3px rgb(199, 122, 122); }
+  50% { box-shadow: 0 0 20px rgb(163, 19, 19); }
+  100% { box-shadow: 0 0 3px rgb(199, 122, 122); }
 }
