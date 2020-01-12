@@ -1635,7 +1635,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     text-transform: uppercase;
     letter-spacing: .25rem;
     position: absolute;
-    top: 9px;
+    top: 0px;
     right: 50px;
 }
 
@@ -2166,6 +2166,7 @@ html.no-csstransitions .home-content__main {
     }
     .home-content h1 {
         font-size: 3.8rem;
+        width: 300px;
     }
     .home-content__main {
         max-width: none;
